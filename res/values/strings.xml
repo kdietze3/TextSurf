@@ -4,5 +4,7 @@
     <string name="app_name">TextSurf</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="url_hint">Enter URL Here</string>
+    <string name="load_url_button">Go</string>
 
 </resources>
