@@ -18,6 +18,8 @@ public class BrowserActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_browser);
+		
 		//Initialize the Web and TextViews
 		webview = (WebView) findViewById(R.id.webView1);
 		text = (TextView) findViewById(R.id.editText1);
@@ -26,7 +28,7 @@ public class BrowserActivity extends Activity {
 		Button button = (Button) findViewById(R.id.button1);
 		button.setOnClickListener(urlListener);
 		
-		setContentView(R.layout.activity_browser);
+		
 	}
 
 	@Override
